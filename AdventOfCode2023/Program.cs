@@ -7,12 +7,14 @@ internal class Program
 	static void Main(string[] args)
 	{
 		var oneA = new PuzzleOneA();
-		var oneB = new PuzzleOneB();
-		var twoA = new PuzzleTwoA();
-		var twoB = new PuzzleTwoB();
 		Console.WriteLine(oneA.Solution());
+		var oneB = new PuzzleOneB();
 		Console.WriteLine(oneB.Solution());
+		var twoA = new PuzzleTwoA();
 		Console.WriteLine(twoA.Solution());
+		var twoB = new PuzzleTwoB();
 		Console.WriteLine(twoB.Solution());
+		var threeA = new PuzzleThreeA();
+		Console.WriteLine(threeA.Solution());
 	}
 }
